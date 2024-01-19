@@ -1,5 +1,14 @@
 
 /* Normal desktop :1200px. */
+@media (min-width: 980px) and (max-width: 1190px) {
+    .second-menu {
+        background: #ffffff;
+    }
+    .header-three .main-menu ul li a {
+        font-family: 'PT Serif', serif;
+        color: #000;
+    }
+}
 @media (min-width: 1200px) and (max-width: 1500px) {
   .home-blog-active .slick-arrow, .home-blog-active2 .slick-arrow{
         display: none !important;
@@ -12,6 +21,9 @@
     .services-box07 .sr-contner .text h5 {
     font-size: 20px;
     color: #fff;
+}
+.section-title h2 {
+    font-size: 36px;
 }
     .steps-area{
         overflow: hidden;
@@ -191,6 +203,9 @@ background-position: 0 -100px;
     min-height: 250px;
 
 }
+.pt-80 {
+    padding-top: 30px;
+}
 .newslater-area {
     height: 490px;
 }
@@ -342,7 +357,7 @@ background-position: 0 -100px;
 }
     
     .section-title h2 {
-    font-size: 40px;
+    font-size: 33px;
 }
     .about-title h2 {
     font-size: 34px;
@@ -633,6 +648,9 @@ margin-right: 8px;
 @media (max-width: 768px){
     .newslater-area {
         display: none;
+    }
+    .whyimg{
+        margin-top: 20px;
     }
 }
 
@@ -2379,9 +2397,11 @@ border-bottom: none;
 .features-content p {
 	padding: 0;
 }
-.section-title {
+
+.steps-area .section-title h5{
 	padding-left: 0;
 	padding-right: 0;
+    margin-top: 30px;
 }
 .section-title h2 {
 	font-size: 32px;
